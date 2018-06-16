@@ -70,7 +70,6 @@ public:
       for(int j = 0; j < WIDTH; j++)
         maze[i][j] = 1;
 
-    std::cout << "h" << std::endl;
     int r = rand() % HEIGHT;
     while(r % 2 == 0){
       r = rand() % HEIGHT;
